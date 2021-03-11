@@ -1,13 +1,11 @@
 <template>
 <v-main>
   <h1>
-    私は佑太です
+    aboutです
   </h1>
+  <router-link to="/">Home</router-link>
 </v-main>
 </template>
 
 <script>
-  export default {
-    name: 'Users',
-  }
 </script>

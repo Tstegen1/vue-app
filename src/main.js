@@ -1,17 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import User from './views/User'
-import Navbar from './layouts/Navbar.vue'
-import vuetify from './plugins/vuetify';
+import About from './views/About'
+import vuetify from './plugins/vuetify'
+import store from './store.js'
 
 Vue.config.productionTip = false
 
-Vue.component(User)
-Vue.component(Navbar)
+Vue.component(About)
 
 new Vue({
   router,
+  store,
   vuetify,
   render: h => h(App)
 }).$mount('#app')
