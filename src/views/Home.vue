@@ -1,9 +1,8 @@
 <template>
 <v-main>
   <h1>
-    aaaaaaaaaaaa
+    Homeです
   </h1>
-  <router-link to="about">About</router-link>
 </v-main>
 </template>
 
